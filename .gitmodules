@@ -1,0 +1,6 @@
+[submodule "dualarm_mobile"]
+	path = dualarm_mobile
+	url = https://github.com/MLCS-Yonsei/dualarm_mobile.git
+[submodule "dualarm_scheduler"]
+	path = dualarm_scheduler
+	url = https://github.com/MLCS-Yonsei/dualarm_scheduler.git
