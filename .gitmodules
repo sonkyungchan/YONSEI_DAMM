@@ -4,3 +4,6 @@
 [submodule "dualarm_scheduler"]
 	path = dualarm_scheduler
 	url = https://github.com/MLCS-Yonsei/dualarm_scheduler.git
+[submodule "teb_local_planner"]
+	path = teb_local_planner
+	url = https://github.com/MLCS-Yonsei/teb_local_planner.git
