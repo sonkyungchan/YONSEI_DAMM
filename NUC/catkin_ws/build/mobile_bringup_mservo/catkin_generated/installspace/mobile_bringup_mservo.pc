@@ -1,0 +1,8 @@
+prefix=/home/nuc/catkin_ws/install
+
+Name: mobile_bringup_mservo
+Description: Description of mobile_bringup_mservo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lmobile_bringup_mservo
+Requires: geometry_msgs nav_msgs roscpp std_msgs

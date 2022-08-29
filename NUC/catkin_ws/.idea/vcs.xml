@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/DynamixelSDK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/SOEM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/chessboard_tracking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ddynamic_reconfigure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/dynamic_reconfigure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/realsense-ros" vcs="Git" />
+  </component>
+</project>

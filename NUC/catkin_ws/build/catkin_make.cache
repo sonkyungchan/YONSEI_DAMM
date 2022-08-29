@@ -1,0 +1,2 @@
+DynamixelSDK/ros:chessboard_tracking/opencv_object_tracking:ddynamic_reconfigure:dualarm_mobile_description:dualarm_sensor_msgs:dxl_gripper:ethercat_test:mobile_bringup_mservo:mobile_control:mservo_msg:msgpkg:path_planner:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:vehicle_control
+-DCATKIN_DEVEL_PREFIX=/home/nuc/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nuc/catkin_ws/install -G Unix Makefiles

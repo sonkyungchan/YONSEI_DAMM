@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nuc/catkin_ws/src/ethercat_test/src/servo_def.c
+servo_def.h
+/home/nuc/catkin_ws/src/ethercat_test/src/servo_def.h
+
+/home/nuc/catkin_ws/src/ethercat_test/src/servo_def.h
+stdint.h
+-
+

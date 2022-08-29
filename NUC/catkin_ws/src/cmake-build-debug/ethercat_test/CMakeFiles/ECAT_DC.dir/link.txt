@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libECAT_DC.so -o ../devel/lib/libECAT_DC.so CMakeFiles/ECAT_DC.dir/src/ecat_dc.c.o 

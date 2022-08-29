@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- urdf description -->
+  <arg name="urdf_file" default="$(find xacro)/xacro --inorder $(find dualarm_mobile_description)/urdf/dualarm_mobile_description.urdf"/>
+  <param name="robot_description" command="$(arg urdf_file)"/>
+
+  <!-- TF and Odometry -->
+
+  <node pkg="mobile_control" type="wheel_odom" name="odom_node"/>
+  <!--
+  <node pkg="mobile_bringup_mservo" type="odom_publisher" name="odom_node"/>
+  -->
+  <node pkg="mobile_bringup_mservo" type="bringup_publisher_mservo" name="tf_node"/>
+    
+</launch>

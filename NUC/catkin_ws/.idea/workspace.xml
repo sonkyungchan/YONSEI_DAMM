@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4d08930-c7d1-467f-9796-75445633b13e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/DynamixelSDK/c/example/dxl_monitor/dxl_monitor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamixelSDK/c/example/dxl_monitor/dxl_monitor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chessboard_tracking/opencv_object_tracking/include/opencv_object_tracking/chessboard_tracker.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/chessboard_tracking/opencv_object_tracking/include/opencv_object_tracking/chessboard_tracker.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chessboard_tracking/opencv_object_tracking/src/chessboard_tracker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/chessboard_tracking/opencv_object_tracking/src/chessboard_tracker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/realsense-ros/realsense2_camera/launch/rs_camera.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/realsense-ros/realsense2_camera/launch/rs_camera.launch" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/SOEM" />
+  </component>
+  <component name="ProjectId" id="1jFCv0a3moMkbfZ6NVwTfYRp7kb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mservo_msg/msg" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mservo_msg/msg" />
+      <recent name="$PROJECT_DIR$/src/ethercat_test/msg" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4d08930-c7d1-467f-9796-75445633b13e" name="Default Changelist" comment="" />
+      <created>1603390679574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603390679574</updated>
+      <workItem from="1603390680743" duration="2669000" />
+      <workItem from="1603430045246" duration="96000" />
+      <workItem from="1603431110119" duration="1050000" />
+      <workItem from="1603432917114" duration="17672000" />
+      <workItem from="1604239931432" duration="7828000" />
+      <workItem from="1604318387334" duration="10000" />
+      <workItem from="1604471659620" duration="5522000" />
+      <workItem from="1604501895575" duration="22107000" />
+      <workItem from="1604911436943" duration="10404000" />
+      <workItem from="1604971936898" duration="75000" />
+      <workItem from="1605061280863" duration="26038000" />
+      <workItem from="1605154835646" duration="5034000" />
+      <workItem from="1605169513479" duration="23616000" />
+      <workItem from="1605319327968" duration="1271000" />
+      <workItem from="1605512646568" duration="39170000" />
+      <workItem from="1605688649164" duration="17271000" />
+      <workItem from="1605772133066" duration="47112000" />
+      <workItem from="1606530336085" duration="727000" />
+      <workItem from="1606982813673" duration="2481000" />
+      <workItem from="1628163501863" duration="891000" />
+      <workItem from="1628164484749" duration="479000" />
+      <workItem from="1628588791407" duration="13001000" />
+      <workItem from="1629698518475" duration="10259000" />
+      <workItem from="1639940649862" duration="229000" />
+      <workItem from="1640188816035" duration="4629000" />
+      <workItem from="1640248031497" duration="10094000" />
+      <workItem from="1640333564840" duration="5045000" />
+      <workItem from="1640668179939" duration="22336000" />
+      <workItem from="1640840814141" duration="599000" />
+      <workItem from="1640858184904" duration="2505000" />
+      <workItem from="1640881557897" duration="17778000" />
+      <workItem from="1641117027870" duration="3333000" />
+      <workItem from="1641179972755" duration="1032000" />
+      <workItem from="1641183357365" duration="1261000" />
+      <workItem from="1641267489025" duration="3598000" />
+      <workItem from="1654502118954" duration="995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="67" y="27" key="SettingsEditor" timestamp="1640259643866">
+      <screen x="67" y="27" width="733" height="573" />
+    </state>
+    <state x="67" y="27" key="SettingsEditor/67.27.733.573@67.27.733.573" timestamp="1640259643865" />
+  </component>
+</project>

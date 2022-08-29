@@ -1,0 +1,8 @@
+prefix=/home/nuc/catkin_ws/install
+
+Name: path_planner
+Description: Description of path_planner
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpath_planner
+Requires: geometry_msgs roscpp std_msgs
