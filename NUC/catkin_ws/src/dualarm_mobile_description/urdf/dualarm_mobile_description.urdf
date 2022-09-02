@@ -1,0 +1,149 @@
+<robot
+  name="dualarm_mobile_description">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.000864338577017398 0.00299918257303577 0.199062022291928"
+        rpy="0 0 0" />
+      <mass
+        value="46.767117709479" />
+      <inertia
+        ixx="2.14741513023637"
+        ixy="0.00641922084382352"
+        ixz="-0.00464682081955339"
+        iyy="2.83336367327626"
+        iyz="0.0187375345667571"
+        izz="2.58531669412511" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dualarm_mobile_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dualarm_mobile_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="velodyne_front_link">
+    <inertial>
+      <origin
+        xyz="0.00088054073719368 0.0325499630756221 -2.34093804751812E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.644876373475702" />
+      <inertia
+        ixx="0.000750999634930059"
+        ixy="1.67722906780247E-05"
+        ixz="-1.44821058273227E-09"
+        iyy="0.000893832150059014"
+        iyz="-4.49975942642844E-08"
+        izz="0.000791663220961329" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dualarm_mobile_description/meshes/velodyne_front_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dualarm_mobile_description/meshes/velodyne_front_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="velodyne_front_joint"
+    type="fixed">
+    <origin
+      xyz="0.339947996689396 0.23499999999999 0.268200000000092"
+      rpy="1.57079632679488 -1.7910313048242E-14 -2.3561944902" />
+    <parent
+      link="base_link" />
+    <child
+      link="velodyne_front_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="velodyne_rear_link">
+    <inertial>
+      <origin
+        xyz="-0.000880540737191904 -2.34093804729607E-06 -0.00525003692437787"
+        rpy="0 0 0" />
+      <mass
+        value="0.644876373475702" />
+      <inertia
+        ixx="0.000750999634930057"
+        ixy="1.44821058254254E-09"
+        ixz="-1.67722906780169E-05"
+        iyy="0.000791663220961329"
+        iyz="-4.49975942634836E-08"
+        izz="0.000893832150059016" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dualarm_mobile_description/meshes/velodyne_rear_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dualarm_mobile_description/meshes/velodyne_rear_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="velodyne_rear_joint"
+    type="fixed">
+    <origin
+      xyz="-0.340052003310609 -0.235000000000005 0.306000000000064"
+      rpy="-2.75620535564625E-14 4.02872023273894E-14 -2.35619449019235" />
+    <parent
+      link="base_link" />
+    <child
+      link="velodyne_rear_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
