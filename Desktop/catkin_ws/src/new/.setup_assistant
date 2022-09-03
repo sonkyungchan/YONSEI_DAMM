@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mobile_platform_descpription
+    relative_path: urdf/mobile_platform_description_v2.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/mobile_platform_description_v1.srdf
+  CONFIG:
+    author_name: dd
+    author_email: dd@gmail.com
+    generated_timestamp: 1658856529

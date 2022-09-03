@@ -1,0 +1,2 @@
+DynamixelSDK/ros:dualarm_config:dualarm_moveit:final_config:final_gazebo1:mobile_platform_descpription:move_robot:mservo_msg:new:ourarm:realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/mservo/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mservo/catkin_ws/install -G Unix Makefiles

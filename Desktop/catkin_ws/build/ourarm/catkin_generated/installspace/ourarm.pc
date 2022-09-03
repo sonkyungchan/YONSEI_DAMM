@@ -1,0 +1,8 @@
+prefix=/home/mservo/catkin_ws/install
+
+Name: ourarm
+Description: Description of ourarm
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

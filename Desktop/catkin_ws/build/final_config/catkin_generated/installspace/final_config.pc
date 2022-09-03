@@ -1,0 +1,8 @@
+prefix=/home/mservo/catkin_ws/install
+
+Name: final_config
+Description: Description of final_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
