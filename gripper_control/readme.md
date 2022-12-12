@@ -56,3 +56,22 @@ add_message_files(
     
     BulkSetItem.msg
 )
+
+# 2. Copy the pkg, paste at catkin_ws/src/, and compile it.
+
+$ cd ~/catkin_ws
+
+$ catkin_make
+
+# 3. Execute dynamixel
+
+$ roscore
+
+$ rosrun gripper_control pwm_control_node
+
+# 4. Topic name
+
+Actuator topic name: /sync_set_pwm
+
+Sensor topic name: /meas
+
