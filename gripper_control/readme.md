@@ -85,3 +85,8 @@ Actuator topic name: /sync_set_pwm
 
 Sensor topic name: /meas
 
+# ID used
+
+id1 = 0
+
+id2 = 1
