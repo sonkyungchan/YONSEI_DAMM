@@ -67,6 +67,7 @@ Latency check and setup.
 
     sudo -s
 
+
     cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
 
 If the latency timer is set to 16 (ms), you have to modify the latency timer by typing the following in the root:
@@ -77,11 +78,12 @@ Execution
 
     roscore
 
+
     rosrun gripper_control pwm_control_node
 
 # 4. Topic name
 
- Actuator topic name: /sync_set_pwm
+Actuator topic name: /sync_set_pwm
 
 Sensor topic name: /meas
 
