@@ -44,15 +44,15 @@ add_message_files(
 
   Files
     
-    ActuatorPwm.msg
+   ActuatorPwm.msg
     
-    Sensor.msg
+   Sensor.msg
     
-    SetPosition.msg
+   SetPosition.msg
     
-    SyncSetPosition.msg
+   SyncSetPosition.msg
     
-    BulkSetItem.msg
+   BulkSetItem.msg
 )
 
 # 2. Copy the pkg, paste at catkin_ws/src/, and compile it.
@@ -65,9 +65,9 @@ $ catkin_make
 
 Latency check and setup.
 
-$ sudo -s
+  sudo -s
 
-$ cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+  cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
 
 If the latency timer is set to 16 (ms), you have to modify the latency timer by typing the following in the root:
 
