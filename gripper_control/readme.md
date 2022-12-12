@@ -8,8 +8,6 @@ path directory : DynamixelSDK/ros/dynamixel_sdk_examples/msg
 
 msg for actuator name: ActuatorPwm.msg
 
-Data field:
-
 uint8 id1
 
 uint8 id2
@@ -64,6 +62,18 @@ $ cd ~/catkin_ws
 $ catkin_make
 
 # 3. Execute dynamixel
+
+Latency check and setup.
+
+$ sudo -s
+
+$ cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+
+If the latency timer is set to 16 (ms), you have to modify the latency timer by typing the following:
+
+$ echo 1 > /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+
+Execution
 
 $ roscore
 
