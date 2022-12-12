@@ -39,3 +39,20 @@ int16 pwm2
 int16 Temperature1
 
 int16 Temperature2
+
+In CmakeLists.txt file,
+
+add_message_files(
+
+  Files
+    
+    ActuatorPwm.msg
+    
+    Sensor.msg
+    
+    SetPosition.msg
+    
+    SyncSetPosition.msg
+    
+    BulkSetItem.msg
+)
