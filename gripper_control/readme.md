@@ -92,3 +92,9 @@ Sensor topic name: /meas
 id1 = 0
 
 id2 = 1
+
+# Bag data
+
+Torque topic name: /torque_data
+
+msg type: std_msgs/Float64
