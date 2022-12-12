@@ -98,3 +98,5 @@ id2 = 1
 Torque topic name: /torque_data
 
 msg type: std_msgs/Float64
+
+Data unit: Nm
