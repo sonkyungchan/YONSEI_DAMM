@@ -69,7 +69,7 @@ $ sudo -s
 
 $ cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
 
-If the latency timer is set to 16 (ms), you have to modify the latency timer by typing the following:
+If the latency timer is set to 16 (ms), you have to modify the latency timer by typing the following in the root:
 
 $ echo 1 > /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
 
